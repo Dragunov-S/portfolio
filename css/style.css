@@ -1,3 +1,49 @@
-.stroka {
-    color: red;
+html {
+  background-color: rgb(246, 246, 246);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
 }
+
+.hello-box {
+  background: rgb(255, 255, 255);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px 14px 0 0;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  width: 22.5vw;
+  height: 23.1vh;
+}
+
+.hello-box2 {
+  background: #33c1e3;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 14px 14px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  width: 22.5vw;
+  height: 11.75vh;
+}
+
+
+/*.bg {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 450px;
+  top: 220px;
+  width: 300px;
+  height: 232px;
+  z-index: 4;
+}*/

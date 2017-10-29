@@ -2,8 +2,11 @@ html {
   background-color: rgb(246, 246, 246);
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   min-height: 100%;
   min-width: 100%;
@@ -13,45 +16,67 @@ html {
   background: rgb(255, 255, 255);
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   border-radius: 1.5vh 1.5vh 0 0;
-  /*justify-content: center;*/
+  -webkit-align-items: center;
   align-items: center;
-  align-content: center;
+  -webkit-align-content: center;
+  align-content: center; /*Выравнивание элементов по центру поперечной оси*/
   box-shadow: 0px 0.1vh 0.2vh 0px rgba(0, 0, 0, 0.3);
   width: 22.5vmax;
-  height: 23.1vmin;
+  height: 11.6vmax;
 }
 
 .hello-box-bottom {
   background: #33c1e3;
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   border-radius: 0 0 1.5vh 1.5vh;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   box-shadow: 0px 0.1vh 0.2vh 0px rgba(0, 0, 0, 0.3);
   width: 22.5vmax;
-  height: 11.75vmin;
+  height: 5.9vmax;
 }
 
 .hello-box-name {
   display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-align-items: center;
   align-items: center;
-  margin: 10.5vmin 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .hello-font {
-  font-size: 3.27vmin;
+  font-size: 1.65vmax;
   font-family: "Open Sans";
   color: rgb(65, 65, 65);
   line-height: 0;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
   /*line-height: 1.333*/
-  margin: 4.1vmin 0 0 0;
+  margin: 2vmax 0 0 0;
+}
+
+.avatar {
+  border-width: 0.08vmax;
+  border-color: rgb(215, 215, 215);
+  border-style: solid;
+  border-style: solid;
+  border-width: 0.08vmax;
+  border-color: rgb(190, 190, 190);
+  border-radius: 50%;
+  background-color: rgb(246, 246, 246);
+  height: 10.5vmax;
+  width: 10.5vmax;
+  margin: -5.3vmax 0 0 0;
+  z-index: 1;
 }
 
 /*.bg {
@@ -87,4 +112,20 @@ html {
   left: 545.093px;
   top: 425.376px;
   z-index: 9;
+}*/
+/*.pic {
+  border-width: 1px;
+  border-color: rgb(215, 215, 215);
+  border-style: solid;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(190, 190, 190);
+  border-radius: 50%;
+  background-color: rgb(246, 246, 246);
+  position: absolute;
+  left: 527px;
+  top: 147px;
+  width: 144px;
+  height: 144px;
+  z-index: 12;
 }*/

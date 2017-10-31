@@ -17,6 +17,8 @@ body {
   display: flex;
   -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 /*Преобразование блоков в флексы-колонки*/
 .to-column {
@@ -38,16 +40,20 @@ body {
 .menu {
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
-  max-width: 30vmax;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  max-width: 20vmax;
 }
 .content {
-  max-width: 48vmax;
+  max-width: 58vmax;
 }
 .main {
   height: 80vmin;
 }
 
 .leftside {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
   -webkit-flex-grow: 1;
   flex-grow: 1;
 }
@@ -83,8 +89,8 @@ body {
   text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
 }
 .main-contacts-font {
-  margin: 2.8vmax 0 0 0;
-  line-height: 1vmax;
+  margin: 0;
+  line-height: 2vmax;
   font-size: 1.65vmax;
   font-family: "Fira Sans";
   color: rgb(50, 195, 229);
@@ -97,4 +103,21 @@ body {
   font-size: 1vmax;
   font-family: "Fira Sans";
   color: rgb(50, 195, 229);
+  font-weight: bold;
 }
+
+.icon-margin {
+  margin-right: 2vmax;
+}
+
+/*.__Обо_мне {
+  font-size: 18px;
+  font-family: "FontAwesome";
+  color: rgb(51, 193, 227);
+  line-height: 1.333;
+  text-align: right;
+  position: absolute;
+  left: 224.151px;
+  top: 136.585px;
+  z-index: 26;
+}*/

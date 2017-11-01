@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: rgb(246, 246, 246);
+  min-width: 100vmax;
+  min-height: 100vmin;
+}
+
+.to-the-flexbox {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.x_axis {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.y_axis {
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.to-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.to-grow {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}

@@ -1,37 +1,10 @@
-html {
-  background-color: rgb(246, 246, 246);
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  align-items: center;
-}
 body {
   margin: 0;
 }
 
-/*Преобразование блоков в строчные флексы*/
-.to-the-flexbox {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-/*Преобразование блоков в флексы-колонки*/
-.to-column {
-  -webkit-flex-direction: column;
-  flex-direction: column;
-}
 /*Задает тип и размер хедера и футера*/
 .main-size {
   width: 100vmax;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
 }
 /*Задает границы ширины хедера и футера*/
 .column-size {
@@ -47,16 +20,7 @@ body {
 .content {
   max-width: 58vmax;
 }
-.main {
-  height: 80vmin;
-}
 
-.leftside {
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-flex-grow: 1;
-  flex-grow: 1;
-}
 .main-footer {
   height: 9vmin;
   background: #727272;
@@ -97,7 +61,7 @@ body {
   font-weight: bold;
 }
 .dots {
-  letter-spacing: 0.2vmax;
+  letter-spacing: 0.19vmax;
   margin: 0;
   line-height: 0;
   font-size: 1vmax;
@@ -110,14 +74,13 @@ body {
   margin-right: 2vmax;
 }
 
-/*.__Обо_мне {
-  font-size: 18px;
-  font-family: "FontAwesome";
-  color: rgb(51, 193, 227);
-  line-height: 1.333;
-  text-align: right;
-  position: absolute;
-  left: 224.151px;
-  top: 136.585px;
-  z-index: 26;
-}*/
+.main {
+  height: 80vmin;
+}
+.lorem-font {
+  font-size: 1.35vmax;
+  font-family: "Open Sans";
+  color: rgb(65, 65, 65);
+  text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
+
+}

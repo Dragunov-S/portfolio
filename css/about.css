@@ -91,8 +91,8 @@ body {
   margin: 0;
 }
 .menu-list li {
-  padding: 1vh 1vmax;
-  margin-bottom: 1vh;
+  padding: 1vmin 1vmax;
+  margin-bottom: 1vmin;
   transition: 0.15s border linear;
   border-right: 0.3vmax solid rgb(246, 246, 246);
 }
@@ -111,4 +111,9 @@ body {
   color: #414141;
   text-decoration: none;
   outline: none;
+}
+
+.to-go {
+  height: 5vmin;
+  width: 5vmin;
 }

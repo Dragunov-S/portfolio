@@ -7,26 +7,21 @@ body {
   width: 100vmax;
 }
 /*Задает границы ширины хедера и футера*/
-.column-size {
+.block-size {
   max-width: 78vmax;
 }
-.menu {
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
+.menu-size {
   max-width: 20vmax;
 }
 .content {
   max-width: 58vmax;
 }
-
 .main-footer {
-  height: 9vmin;
-  background: #727272;
+  height: 8vmin;
+  background: #414141;
 }
 .main-header {
-  height: 11vmin;
+  height: 14vmin;
   background: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0.1vh 0.3vh 0px rgba(0, 0, 0, 0.2);
@@ -69,11 +64,14 @@ body {
   color: rgb(50, 195, 229);
   font-weight: bold;
 }
-
-.icon-margin {
-  margin-right: 2vmax;
+.footer-font{
+  font-size: 1vmax;
+  font-family: "Fira Sans";
+  color: #727272;
 }
-
+.icon-margin {
+  margin-right: 1vmax;
+}
 .main {
   height: 80vmin;
 }
@@ -82,5 +80,35 @@ body {
   font-family: "Open Sans";
   color: rgb(65, 65, 65);
   text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
-
+}
+/* Стилизация меню */
+.menu-list {
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  font-family: "Fira Sans";
+  list-style: none;
+  padding: 0.5vmax;
+  margin: 0;
+}
+.menu-list li {
+  padding: 1vh 1vmax;
+  margin-bottom: 1vh;
+  transition: 0.15s border linear;
+  border-right: 0.3vmax solid rgb(246, 246, 246);
+}
+.menu-list li:hover {
+  border-right: 0.3vmax solid rgb(50, 195, 229);
+}
+.menu-list li:hover>a {
+  color: rgb(50, 195, 229);
+}
+.menu-list li:active {
+  font-weight: bold;
+}
+.menu-list li a {
+  line-height: 2vmax;
+  font-size: 1.35vmax;
+  color: #414141;
+  text-decoration: none;
+  outline: none;
 }

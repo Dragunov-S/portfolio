@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Open Sans";
+    src: local("Open Sans"),
+    url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf),
+    url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot),
+    url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff);
+    font-weight: normal;
+   }
+@font-face {
+   font-family: "Open Sans";
+   src: local("Open Sans"),
+   url(../fonts/OpenSans/OpenSansBold/OpenSansBold.ttf),
+   url(../fonts/OpenSans/OpenSansBold/OpenSansBold.eot),
+   url(../fonts/OpenSans/OpenSansBold/OpenSansBold.woff);
+   font-weight: bold;
+  }
+@font-face {
+   font-family: "Open Sans";
+   src: local("Open Sans"),
+   url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.ttf),
+   url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.eot),
+   url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.woff);
+   font-style: italic;
+  }
+@font-face {
+   font-family: "FontAwesome";
+   src: local("FontAwesome"),
+   url(../fonts/FontAwesome/FontAwesome.otf),
+   url(../fonts/FontAwesome/fontawesome-webfont.ttf);
+  }
+@font-face {
+   font-family: "Fira Sans";
+   src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Bold.ttf);
+   font-weight: bold;
+  }
+@font-face {
+   font-family: "Fira Sans";
+   src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Regular.ttf);
+   font-weight: normal;
+  }

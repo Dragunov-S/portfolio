@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/fonts.css">
   <link rel="stylesheet" href="../css/about.css">
@@ -21,9 +21,25 @@
           <div class="to-the-flexbox y_axis to-grow">
             <p class="main-name-font">Анатолий Анатольев</p>
           </div>
-          <div class="to-the-flexbox x_axis to-column">
-              <p class="main-contacts-font">Мои контакты</p>
+          <div class="to-the-flexbox x_axis to-column pos__rel">
+            <div class="on-over">
+              <p class="my__contacts">Мои контакты</p>
               <p class="dots">..........................</p>
+            </div>
+              <div class="my__contacts__block">
+                <div class="triangle">
+                  <!-- В этом диве отрисосывается треугольник -->
+                </div>
+                <div class="triangle triangle-2">
+                  <!-- В этом диве отрисосывается перекрывающий треугольник -->
+                </div>
+                <p class="my__contacts__el"><i class="fa fa-envelope icon-margin" aria-hidden="true">
+                </i>anatoly@mail.ru</p>
+                <p class="my__contacts__el"><i class="fa fa-phone icon-margin" aria-hidden="true">
+                </i>+7 132 145777</p>
+                <p class="my__contacts__el"><i class="fa fa-skype icon-margin" aria-hidden="true">
+                </i>anatoly_</p>
+              </div>
           </div>
         </div>
       </header>
@@ -55,7 +71,7 @@
                     deserunt mollit anim id est laborum.o
                   </p>
                   <div class="to-the-flexbox y_axis from_end">
-                    <a href="#" class="download__button"><i class="fa fa-download icon-margin" aria-hidden="true">  
+                    <a href="#" class="download__button"><i class="fa fa-download icon-margin" aria-hidden="true">
                     </i>Скачать резюме</a>
                   </div>
                 </div>

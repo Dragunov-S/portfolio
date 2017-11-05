@@ -53,6 +53,45 @@ body {
   border-radius: 50%;
   background-color: rgb(246, 246, 246);
 }
+.pos__rel {
+  position: relative;
+}
+
+.my__contacts__block {
+  margin: 7vmax 0 0 -2vmax;
+  position: absolute;
+  width: 15vmax;
+  font-family: "Fira Sans";
+  color: rgb(65, 65, 65);
+  border-style: solid;
+  border-radius: 1vmax;
+  border-width: 0.05vmax;
+  border-color: rgb(222, 222, 222);
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+}
+.triangle {
+position: absolute;
+margin: -0.8vmax 6.95vmax 0;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0.5vmax 0.8vmax 0.5vmax;
+border-color: transparent transparent rgb(222, 222, 222) transparent;
+}
+.triangle-2 {
+position: absolute;
+margin: -0.7vmax 6.95vmax 0;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 0.5vmax 0.8vmax 0.5vmax;
+border-color: transparent transparent rgb(255, 255, 255) transparent;
+}
+
+.my__contacts__block i {
+  color: rgb(50, 195, 229);
+}
 
 /*Настройка шрифта имени в верхнем блоке*/
 .main-name-font {
@@ -62,14 +101,27 @@ body {
   margin: 0 0 0 1.5vmax;
   text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
 }
-.main-contacts-font {
+.my__contacts {
   margin: 0;
   line-height: 2vmax;
   font-size: 1.65vmax;
   font-family: "Fira Sans";
   color: rgb(50, 195, 229);
   font-weight: bold;
+  text-decoration: none;
+  outline: none;
 }
+.on-over {
+  cursor: pointer;
+}
+.on-over:hover p {
+  color: #e85f61;
+}
+
+.on-over:hover + .my__contacts__block {
+  visibility: visible;
+}
+
 .dots {
   letter-spacing: 0.19vmax;
   margin: 0;
@@ -79,6 +131,11 @@ body {
   color: rgb(50, 195, 229);
   font-weight: bold;
 }
+.my__contacts__el {
+  margin: 1.1vmax;
+  font-size: 1.25vmax;
+}
+
 .footer-font{
   font-size: 1vmax;
   font-family: "Fira Sans";
@@ -158,3 +215,15 @@ body {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
 }
+
+/*/.anatoly_mail_ru {
+  font-size: 18px;
+  font-family: "Fira Sans";
+  color: rgb(65, 65, 65);
+  line-height: 1.556;
+  text-align: left;
+  position: absolute;
+  left: 959.984px;
+  top: 105.378px;
+  z-index: 40;
+}*/

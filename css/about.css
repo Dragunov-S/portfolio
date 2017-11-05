@@ -13,8 +13,11 @@ body {
 .menu-size {
   max-width: 20vmax;
 }
-.content {
-  max-width: 58vmax;
+.article__width {
+  width: 58vmax;
+}
+.aboutme_width {
+  max-width: 40vmax;
 }
 .main-footer {
   height: 8vmin;
@@ -27,7 +30,7 @@ body {
   box-shadow: 0px 0.1vh 0.3vh 0px rgba(0, 0, 0, 0.2);
 }
 /*Настройка аватара*/
-.main__avatar {
+.top__avatar {
   border-width: 0.15vmin;
   border-color: rgb(215, 215, 215);
   border-style: solid;
@@ -39,6 +42,18 @@ body {
   height: 9vmin;
   width: 9vmin;
 }
+.article__avatar {
+  margin: 2vmax;
+  height: 15vmax;
+  width: 15vmax;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0.3vmax;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(246, 246, 246);
+}
+
 /*Настройка шрифта имени в верхнем блоке*/
 .main-name-font {
   font-size: 1.65vmax;
@@ -112,8 +127,34 @@ body {
   text-decoration: none;
   outline: none;
 }
-
+.social-buttons {
+  text-decoration: none;
+  outline: none;
+}
 .to-go {
   height: 5vmin;
   width: 5vmin;
+}
+
+.download__button {
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  font-size: 1.05vmax;
+  font-family: "Open Sans";
+  color: #e85f61;
+  font-weight: bold;
+  line-height: 2.7vmax;
+  height: 2.6vmax;
+  width: 15vmax;
+  display: inline-block;
+  border-radius: 2vmax;
+  border-width: 0.18vmax;
+  border-color: #e85f61;
+  border-style: solid;
+}
+.download__button:hover {
+  background: #e85f61;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }

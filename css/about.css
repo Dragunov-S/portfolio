@@ -8,44 +8,49 @@ body {
 }
 /*Задает границы ширины хедера и футера*/
 .block-size {
-  max-width: 78vmax;
+  max-width: 78.5vmax;
+}
+.middle-block-size {
+  max-width: 80.5vmax;
 }
 .menu-size {
-  max-width: 20vmax;
+  max-width: 20.5vmax;
 }
 .article__width {
-  width: 58vmax;
+  width: 60vmax;
 }
 .aboutme_width {
-  max-width: 40vmax;
+  max-width: 32.5vmax;
 }
+
 .main-footer {
   height: 8vmin;
   background: #414141;
 }
 .main-header {
-  height: 14vmin;
+  height: 12.8vmin;
   background: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0.1vh 0.3vh 0px rgba(0, 0, 0, 0.2);
 }
 /*Настройка аватара*/
 .top__avatar {
-  border-width: 0.15vmin;
+  border-width: 0.2vmin;
   border-color: rgb(215, 215, 215);
   border-style: solid;
   border-style: solid;
-  border-width: 0.15vmin;
+  border-width: 0.2vmin;
   border-color: rgb(190, 190, 190);
   border-radius: 50%;
   background-color: rgb(246, 246, 246);
-  height: 9vmin;
-  width: 9vmin;
+  height: 10vmin;
+  width: 10vmin;
 }
+/*Фотография в статье*/
 .article__avatar {
-  margin: 2vmax;
-  height: 15vmax;
-  width: 15vmax;
+  margin: 2.1vmax 4.65vmax 2vmax 3.85vmax;
+  height: 18.5vmax;
+  width: 18.5vmax;
   overflow: hidden;
   border-style: solid;
   border-width: 0.3vmax;
@@ -56,7 +61,7 @@ body {
 .pos__rel {
   position: relative;
 }
-
+/*Изчезающий блок с контактами*/
 .my__contacts__block {
   margin: 7vmax 0 0 -2vmax;
   position: absolute;
@@ -94,8 +99,8 @@ border-color: transparent transparent rgb(255, 255, 255) transparent;
 }
 
 /*Настройка шрифта имени в верхнем блоке*/
-.main-name-font {
-  font-size: 1.65vmax;
+.header-name-font {
+  font-size: 1.45vmax;
   font-family: "Open Sans";
   color: rgb(65, 65, 65);
   margin: 0 0 0 1.5vmax;
@@ -103,13 +108,22 @@ border-color: transparent transparent rgb(255, 255, 255) transparent;
 }
 .my__contacts {
   margin: 0;
-  line-height: 2vmax;
-  font-size: 1.65vmax;
+  line-height: 1.8vmax;
+  font-size: 1.47vmax;
   font-family: "Fira Sans";
   color: rgb(50, 195, 229);
   font-weight: bold;
   text-decoration: none;
   outline: none;
+}
+.dots {
+  letter-spacing: 0.19vmax;
+  margin: 0;
+  line-height: 0;
+  font-size: 0.8vmax;
+  font-family: "Fira Sans";
+  color: rgb(50, 195, 229);
+  font-weight: bold;
 }
 .on-over {
   cursor: pointer;
@@ -117,41 +131,12 @@ border-color: transparent transparent rgb(255, 255, 255) transparent;
 .on-over:hover p {
   color: #e85f61;
 }
-
 .on-over:hover + .my__contacts__block {
   visibility: visible;
-}
-
-.dots {
-  letter-spacing: 0.19vmax;
-  margin: 0;
-  line-height: 0;
-  font-size: 1vmax;
-  font-family: "Fira Sans";
-  color: rgb(50, 195, 229);
-  font-weight: bold;
 }
 .my__contacts__el {
   margin: 1.1vmax;
   font-size: 1.25vmax;
-}
-
-.footer-font{
-  font-size: 1vmax;
-  font-family: "Fira Sans";
-  color: #727272;
-}
-.icon-margin {
-  margin-right: 1vmax;
-}
-.main {
-  height: 80vmin;
-}
-.lorem-font {
-  font-size: 1.35vmax;
-  font-family: "Open Sans";
-  color: rgb(65, 65, 65);
-  text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
 }
 /* Стилизация меню */
 .menu-list {
@@ -159,51 +144,83 @@ border-color: transparent transparent rgb(255, 255, 255) transparent;
   align-items: flex-end;
   font-family: "Fira Sans";
   list-style: none;
-  padding: 0.5vmax;
+  padding: 2.5vmax 0.5vmax;
   margin: 0;
 }
 .menu-list li {
-  padding: 1vmin 1vmax;
-  margin-bottom: 1vmin;
+  padding: 1vmin 1.8vmax 1vmin 2.2vmax;
+  margin-bottom: 1.2vmin;
   transition: 0.15s border linear;
-  border-right: 0.3vmax solid rgb(246, 246, 246);
+  border-right: 0.5vmax solid rgb(246, 246, 246);
 }
-.menu-list li:hover {
-  border-right: 0.3vmax solid rgb(50, 195, 229);
-}
+/*.menu-list li:hover {
+  border-right: 0.5vmax solid rgb(50, 195, 229);
+}*/
 .menu-list li:hover>a {
   color: rgb(50, 195, 229);
 }
 .menu-list li:active {
   font-weight: bold;
+  border-right: 0.5vmax solid rgb(50, 195, 229);
 }
 .menu-list li a {
   line-height: 2vmax;
-  font-size: 1.35vmax;
+  font-size: 1.47vmax;
   color: #414141;
   text-decoration: none;
   outline: none;
+}
+.footer-font{
+  font-size: 1vmax;
+  font-family: "Fira Sans";
+  color: #727272;
+}
+.icon-margin {
+  margin-right: 0.8vmax;
+}
+.main {
+  height: 80vmin;
+}
+.aboutme_headline {
+  font-size: 2.9vmax;
+  font-weight: 500;
+  font-family: "Fira Sans";
+  margin: 2vmax 0 1.5vmax;
+}
+.aboutme__text {
+  margin: 0 0.3vmax 0 0;
+  font-size: 1.55vmax;
+  line-height: 2vmax;
+  font-family: "Fira Sans";
+  color: rgb(120, 120, 120);
+}
+.aboutme__textblock {
+  height: 46.5vmin;
+  overflow-y: scroll;
+  margin-bottom: 5vmin;
 }
 .social-buttons {
   text-decoration: none;
   outline: none;
 }
 .to-go {
-  height: 5vmin;
-  width: 5vmin;
+  margin-left: 0.5vmax;
+  height: 5.2vmin;
+  width: 5.2vmin;
 }
 
 .download__button {
   text-decoration: none;
   outline: none;
   text-align: center;
-  font-size: 1.05vmax;
+  font-size: 1.1vmax;
   font-family: "Open Sans";
   color: #e85f61;
   font-weight: bold;
   line-height: 2.7vmax;
-  height: 2.6vmax;
-  width: 15vmax;
+  height: 2.8vmax;
+  width: 14vmax;
+  margin: 0 1vmax 0 0;
   display: inline-block;
   border-radius: 2vmax;
   border-width: 0.18vmax;
@@ -215,15 +232,21 @@ border-color: transparent transparent rgb(255, 255, 255) transparent;
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
 }
+/*Скролл*/
+#scroll__style::-webkit-scrollbar-track
+{
+	background-color: #f6f6f6;
+  border-radius: 3.5vmin;
+}
 
-/*/.anatoly_mail_ru {
-  font-size: 18px;
-  font-family: "Fira Sans";
-  color: rgb(65, 65, 65);
-  line-height: 1.556;
-  text-align: left;
-  position: absolute;
-  left: 959.984px;
-  top: 105.378px;
-  z-index: 40;
-}*/
+#scroll__style::-webkit-scrollbar
+{
+	width: 0.4vmax;
+	background-color: #f6f6f6;
+}
+
+#scroll__style::-webkit-scrollbar-thumb
+{
+	background-color: rgb(216, 216, 216);
+	border-radius: 3.5vmin;
+}

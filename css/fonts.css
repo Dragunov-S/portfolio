@@ -31,10 +31,20 @@
 @font-face {
    font-family: "Fira Sans";
    src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Bold.ttf);
-   font-weight: bold;
+   font-weight: 900;
   }
 @font-face {
    font-family: "Fira Sans";
    src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Regular.ttf);
    font-weight: normal;
+  }
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Light.ttf);
+    font-weight: lighter;
+  }
+@font-face {
+    font-family: "Fira Sans";
+    src: local("Fira Sans"), url(../fonts/FiraSans/FiraSans-Medium.ttf);
+    font-weight: 500;
   }

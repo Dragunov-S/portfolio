@@ -1,6 +1,6 @@
 .joblist {
   list-style: none;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   font-size: 2.5vmin;
   margin-top: -1vmin;
 }
@@ -63,7 +63,7 @@
   content: none;
 }
 .joblist__place {
-  font-weight: 500;
+  font-family: "Fira Sans Medium";
 }
 .career__pic {
   width: 30vmin;
@@ -78,7 +78,6 @@
 }
 .career__headline {
   margin: 2vmin 0;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   font-size: 5vmin;
-  font-weight: 500;
 }

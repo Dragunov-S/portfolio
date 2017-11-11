@@ -22,7 +22,7 @@ body {
 /*Настройка шрифта имени в верхнем блоке*/
 .hello-font {
   font-size: 1.65vmax;
-  font-family: "Open Sans";
+  font-family: "Open Sans Regular";
   color: rgb(65, 65, 65);
   line-height: 0.2vmax;
   text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
@@ -49,9 +49,8 @@ body {
   outline: none;
   text-align: center;
   font-size: 1.05vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Bold";
   color: rgb(255, 255, 255);
-  font-weight: bold;
   line-height: 2.7vmax;
   height: 2.6vmax;
   width: 10vmax;

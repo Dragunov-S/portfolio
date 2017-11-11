@@ -14,10 +14,10 @@ body {
   max-width: 80.5vmax;
 }
 .menu-size {
-  max-width: 20.5vmax;
+  max-width: 19.5vmax;
 }
 .article__width {
-  width: 60vmax;
+  width: 61vmax;
 }
 .aboutme_width {
   max-width: 32.5vmax;
@@ -48,7 +48,7 @@ body {
 }
 /*Фотография в статье*/
 .article__avatar {
-  margin: 2.1vmax 4.65vmax 2vmax 3.85vmax;
+  margin: 2.1vmax 4.65vmax 2vmax 4.35vmax;
   height: 18.5vmax;
   width: 18.5vmax;
   overflow: hidden;
@@ -66,7 +66,7 @@ body {
   margin: 7vmax 0 0 -2.5vmax;
   position: absolute;
   width: 15vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   color: rgb(65, 65, 65);
   border-style: solid;
   border-radius: 1vmax;
@@ -101,7 +101,7 @@ body {
 /*Настройка шрифта имени в верхнем блоке*/
 .header-name-font {
   font-size: 1.45vmax;
-  font-family: "Open Sans";
+  font-family: "Open Sans Regular";
   color: rgb(65, 65, 65);
   margin: 0 0 0 1.5vmax;
   text-shadow: 0.05vmax 0.05vmax 0.05vmax rgba(0, 0, 0, 0.3);
@@ -110,9 +110,8 @@ body {
   margin: 0;
   line-height: 1.8vmax;
   font-size: 1.47vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Bold";
   color: rgb(50, 195, 229);
-  font-weight: bold;
   text-decoration: none;
   outline: none;
 }
@@ -121,9 +120,8 @@ body {
   margin: 0;
   line-height: 0;
   font-size: 0.8vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Bold";
   color: rgb(50, 195, 229);
-  font-weight: bold;
 }
 .on-over {
   cursor: pointer;
@@ -142,7 +140,7 @@ body {
 .menu-list {
   -webkit-align-items: flex-end;
   align-items: flex-end;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   list-style: none;
   padding: 2.5vmax 0.5vmax;
   margin: 0;
@@ -172,7 +170,7 @@ body {
 }
 .footer-font{
   font-size: 1vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   color: #727272;
 }
 .icon-margin {
@@ -184,14 +182,14 @@ body {
 .aboutme_headline {
   font-size: 2.9vmax;
   font-weight: 500;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Medium";
   margin: 2vmax 0 1.5vmax;
 }
 .aboutme__text {
   margin: 0 0.3vmax 0 0;
   font-size: 1.55vmax;
   line-height: 2vmax;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Regular";
   color: rgb(120, 120, 120);
 }
 .aboutme__textblock {
@@ -214,9 +212,8 @@ body {
   outline: none;
   text-align: center;
   font-size: 1.1vmax;
-  font-family: "Open Sans";
+  font-family: "Open Sans Bold";
   color: #e85f61;
-  font-weight: bold;
   line-height: 2.7vmax;
   height: 2.8vmax;
   width: 14vmax;

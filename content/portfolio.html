@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/fonts.css">
   <link rel="stylesheet" href="../css/about.css">
   <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/portfolio.css">
   <link rel="stylesheet" href="../css/font-awesome.min.css">
   <title>My portfolio</title>
 </head>
@@ -57,49 +58,71 @@
                   </i>Обо мне</a></li>
                   <li><a href="career.html"><i class="fa fa-rocket icon-margin" aria-hidden="true">
                   </i>Карьерный путь</a></li>
-                  <li><a href="portfolio.html"><i class="fa fa-briefcase icon-margin" aria-hidden="true">
+                  <li><a href="#"><i class="fa fa-briefcase icon-margin" aria-hidden="true">
                   </i>Портфолио</a></li>
                 </ul>
             </nav>
             <!-- Контент -->
-            <article class="to-the-flexbox x_axis article__width">
-                <!-- Фотография -->
-                <img src="../img/me.jpg" alt="ME.jpg" title="Handsome One" class="article__avatar">
-                <!-- Текст -->
-                <div class="to-the-flexbox to-column aboutme_width">
-                    <h1 class="aboutme_headline">Обо мне</h1>
-                    <div class="aboutme__textblock" id="scroll__style">
-                      <p class="aboutme__text">Меня зовут Анатолий, проживаю в городе Тольятти
-                        elit. Ut, sit. Alias optio laboriosam, tempora
-                        voluptate culpa, aspernatur tenetur adipisci distinctio
-                        itaque quos facilis laborum, mollitia sapiente saepe,
-                        officia iure maxime?Illum porro enim, culpa iusto!
-                        Nulla iste dicta nobis perferendis eum maxime
-                        asperiores saepe error, reprehenderit libero
-                        aspernatur possimus, laboriosam totam sapiente
-                        ullam quos, soluta iusto ex! Cumque ut, quam.Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.est laborum.est laborum.est laborum.
-                      </p>
+            <article class="to-the-flexbox x_axis article__width to-column">
+              <!-- Заголовок -->
+                <div class="">
+                  <h1 class="portfolio__headline">Портфолио</h1>
+                </div>
+                <div class="to-the-flexbox to-wrap projects" id="scroll__style">
+                  <div class="to-column project">
+                    <div class="project__top">
+                      <img src="../img/dealsapp.jpg" alt="" class="project__image">
+                    </div>
+                    <div class="project__bottom">
+                      <p class="set_up nameofwork">Deals App</p>
+                      <p class="set_up workdescription">Продажа одежды</p>
+                      <p class="set_up typeofwork"><i class="fa fa-mobile typeofwork__icon" aria-hidden="true">
+                      </i>Приложение</p>
+                    </div>
                   </div>
-                  <!-- Кнопка -->
-                  <div class="to-the-flexbox y_axis from_end">
-                    <a href="#" class="download__button"><i class="fa fa-download icon-margin" aria-hidden="true">
-                    </i>Скачать резюме</a>
+                  <div class="to-column project">
+                    <div class="project__top">
+                      <img src="../img/dreamscapes.jpg" alt="" class="project__image">
+                    </div>
+                    <div class="project__bottom">
+                      <p class="set_up nameofwork">Dream-scapes</p>
+                      <p class="set_up workdescription">Лагуна Люфтганза</p>
+                      <p class="set_up typeofwork"><i class="fa fa-desktop typeofwork__icon" aria-hidden="true">
+                      </i>Лендинг</p>
+                    </div>
+                  </div>
+                  <div class="to-column project">
+                    <div class="project__top">
+                      <img src="../img/creativestudio.jpg" alt="" class="project__image">
+                    </div>
+                    <div class="project__bottom">
+                      <p class="set_up nameofwork">Creative Studio</p>
+                      <p class="set_up workdescription">Танцевальная студия</p>
+                      <p class="set_up typeofwork"><i class="fa fa-desktop typeofwork__icon" aria-hidden="true">
+                      </i>Корпоративный сайт</p>
+                    </div>
+                  </div>
+                  <div class="to-column project">
+                    <div class="project__top">
+                      <img src="../img/studiofrog.jpg" alt="" class="project__image">
+                    </div>
+                    <div class="project__bottom">
+                      <p class="set_up nameofwork">Studio Frog</p>
+                      <p class="set_up workdescription">Мебельный магазин</p>
+                      <p class="set_up typeofwork"><i class="fa fa-desktop typeofwork__icon" aria-hidden="true">
+                      </i>Лендинг</p>
+                    </div>
+                  </div>
+                  <div class="to-column project">
+                    <div class="project__top">
+                      <img src="../img/carbonara.png" alt="" class="project__image">
+                    </div>
+                    <div class="project__bottom">
+                      <p class="set_up nameofwork">Carbonara</p>
+                      <p class="set_up workdescription">Итальянский ресторан</p>
+                      <p class="set_up typeofwork"><i class="fa fa-desktop typeofwork__icon" aria-hidden="true">
+                      </i>Лендинг</p>
+                    </div>
                   </div>
                 </div>
             </article>

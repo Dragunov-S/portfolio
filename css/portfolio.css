@@ -1,0 +1,61 @@
+.projects {
+  height: 64.2vmin;
+  overflow-y: scroll;
+}
+
+.project {
+  margin-left: 3vmin;
+  margin-bottom: 3vmin;
+}
+.project__top {
+  background: rgb(255, 255, 255);
+  border-radius: 1.5vh 1.5vh 0 0;
+  box-shadow: 0px 0.1vh 0.2vh 0px rgba(0, 0, 0, 0.3);
+  width: 37vmin;
+  height: 28.8vmin;
+  overflow: hidden;
+}
+
+/*Нижняя часть с кнопкой*/
+.project__bottom {
+  background: rgb(255, 255, 255);
+  border-radius: 0 0 1.5vh 1.5vh;
+  box-shadow: 0px 0.1vh 0.2vh 0px rgba(0, 0, 0, 0.3);
+  width: 37vmin;
+  height: 18.2vmin;
+}
+.portfolio__headline {
+  margin: 0;
+  padding: 3vmin 0 3.3vmin 3vmin;
+  font-family: "Fira Sans Regular";
+  font-size: 5.8vmin;
+}
+.set_up {
+  font-family: "Fira Sans Regular";
+  padding-left: 3vmin;
+  margin: 0;
+}
+.nameofwork {
+  padding-top: 3vmin;
+  font-size: 3.5vmin;
+  color: rgb(50, 195, 229);
+}
+.workdescription {
+  color: rgb(65, 65, 65);
+  font-size: 2.3vmin;
+}
+.typeofwork {
+  font-family: "Fira Sans Bold";
+  color: rgb(150, 150, 150);
+  padding: 3vmin;
+  font-size: 2.3vmin;
+}
+.typeofwork__icon {
+  margin-right: 1vmin;
+  font-size: 3vmin;
+}
+
+.project__image {
+  width: 37vmin;
+  height: 28.8vmin;
+}

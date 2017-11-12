@@ -35,6 +35,11 @@
   flex-grow: 1;
 }
 
+.to-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .from_end {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
